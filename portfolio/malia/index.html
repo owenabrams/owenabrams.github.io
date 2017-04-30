@@ -1,0 +1,1552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>malia</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
+    
+        <!-- Material Design Bootstrap -->
+    <link href="css/mdnbb.min.css" rel="stylesheet">
+
+    <!-- Temporary navbar container fix -->
+    <style>
+    .navbar-toggler {
+        z-index: 1;
+    }
+    
+    @media (max-width: 576px) {
+        nav > .container {
+            width: 100%;
+        }
+    }
+    </style>
+    
+
+
+<style>
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 0px 0px 0px 0px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {color: #000000}
+
+a.specialeffects:hover {
+  <!-- background-color: #AD6929; -->
+  text-shadow: 3px 2px blue;
+} 
+</style>
+
+<!-- Template styles -->
+    <style rel="stylesheet">
+        /* TEMPLATE STYLES */
+        /* Necessary for full page carousel*/
+        
+        html,
+        body {
+            height: 100%;
+        }
+        /* Navigation*/
+        
+        .navbar {
+            background-color: transparent;
+        }
+        
+        .top-nav-collapse {
+            background-color: #304a74;
+        }
+        
+        footer.page-footer {
+            background-color: #304a74;
+        }
+        
+        @media only screen and (max-width: 768px) {
+            .navbar {
+                background-color: #4285F4;
+            }
+        }
+        
+        .scrolling-navbar {
+            -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+            -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+            transition: background .5s ease-in-out, padding .5s ease-in-out;
+        }
+        /* Carousel*/
+        
+        .carousel {
+            height: 50%;
+        }
+        
+        @media (max-width: 776px) {
+            .carousel {
+                height: 100%;
+            }
+        }
+        
+        .carousel-item,
+        .active {
+            height: 100%;
+        }
+        
+        .carousel-inner {
+            height: 100%;
+        }
+        
+        /*Caption*/
+        
+        .flex-center {
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body id="page-top">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar fixed-top navbar-toggleable-md navbar-light">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarExample" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation">
+            Menu <i class="fa fa-bars"></i>
+        </button>
+        <div class="container">
+            <a class="navbar-brand" href="#page-top">MALIA</a>
+            <div class="collapse navbar-collapse " id="navbarExample">
+	    
+                <ul class="navbar-nav ml-auto">
+		 <li class="nav-item">
+                        <a class="nav-link" href="#about">Synopsis</a>
+                    </li>
+		    <!-- Start Dropdown -->
+		
+		<div class="dropdown">
+		<a class="nav-link" href="#intentions" onmouseover="this.bgColor='red'; this.style.color='white'">Intentions</a>
+		<div class="dropdown-content">
+		<ul style="list-style: none;">
+		<li><a href="#intentions" class="change">Michele Gentile</a></li>
+		<li><a href="#christiane">Christiane Gentile</a></li>
+		<li><a href="#jennifer">Jennifer Schense</a></li>
+		<li><a href="#olaraholger">Florence Olara</a></li>
+		<li><a href="#olaraholger">Holger Bergmann</a></li>
+		</ul>
+		</div>
+		</div>
+	
+		<!-- End Dropdown -->
+		<!--
+		 <li class="nav-item">
+                        <a class="nav-link" href="#screenplay">Screenplay</a>
+                    </li> -->
+		    <!-- Start Dropdown -->
+		
+		<div class="dropdown">
+		<a class="nav-link" href="#characters">Characters</a>
+		<div class="dropdown-content">
+		<ul style="list-style: none;">
+		<li><a href="#characters" class="specialeffects">Malia Nasuna</a></li>
+		<li><a href="#characters">Antonia Jonker</a></li>
+		<li><a href="#characters">Alice Hoffmann</a></li>
+		<li><a href="#characters">Jolene Nasuna</a></li>
+		<li><a href="#characters">Odongo Kalanzi</a></li>
+		<li><a href="#characters">Malia's mother Jolene</a></li>
+		<li><a href="#characters">The Being</a></li>
+		</ul>
+		</div>
+		</div>
+	
+		<!-- End Dropdown -->
+		
+		  <!-- Start Dropdown -->
+		
+		<div class="dropdown">
+		<a class="nav-link" href="#maliaapartment">Apartment</a>
+		<div class="dropdown-content">
+		<ul style="list-style: none;">
+		<li><a href="#maliaapartment" class="specialeffects">Malia's Apartment</a></li>
+		<li><a href="#malia">Malia</a></li>
+		<li><a href="#filmbegins">Here the Film Begins</a></li>
+		</ul>
+		</div>
+		</div>
+	
+		<!-- End Dropdown -->
+		
+		  <!-- Start Dropdown -->
+		
+		<div class="dropdown">
+		<a class="nav-link" href="#screenplay">Screenplay</a>
+		<div class="dropdown-content">
+		<ul style="list-style: none;">
+		<li><a href="#lookfeelimpressions" class="specialeffects">Look and Feel</a></li>
+		<li><a href="#lookfeelimpressions">Impressions</a></li>
+		<li><a href="#filmintentionsgoals">Intentions / Goals</a></li>
+		</ul>
+		</div>
+		</div>
+	
+		<!-- End Dropdown -->
+		<!--
+		 <li class="nav-item">
+                        <a class="nav-link" href="#screenplay">Screenplay</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+		
+            </div>
+        </div>
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="masthead">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 offset-md-2">
+                        <h3 class="">Fear Knows No Time of Day</h3>
+			<img src="img/mALIA-LOGO.png" width="391" height="142">
+                        <p class="intro-text">A FILM BY MICHELE GENTILE
+                            <br>The Project</p>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container text-justify" style="background:url(img/image005.jpg) no-repeat" >
+     <br />   <br /> 
+<div class="card card-outline-danger" style="background-color: #66878D; max-width: 20rem; height: 4rem; border-color: white">
+
+<div class="card-block"><center>
+<h5 style="#">SYNOPSIS</h3>
+</div>
+<center>
+</div><!-- Close Card-->
+      <br />
+      <div class="row">
+
+        <div class="col-6 col-md-4">&nbsp;</div>
+	        <div class="col-12 col-md-8">Alone in a strange city, in a strange apartment, in a foreign culture. Alone amongst strangers. Alone with memories that will not relent. Memories of the murder of her mother and father, of her friends and neighbors. Memories of soldiers with guns, of the family house in flames, of a familiar world coming to a devastating end.
+	<br><br>Memories of being forced to carry a weapon, to kill. Forced to become one of them, with no hope of return to a normal life. Memories of a rape, and seeing the rapist's face everyday in the face of her own child.
+	<br><br>Welcome to Malia's world, the heroine of "Malia".
+	<br><br>A heroine she is without question, even though she would never see herself that way. She is ready to face the unimaginable horrors of her past in the witness box at the International Criminal Court. She is ready to see her tormentors held accountable
+before the whole world for their deeds.
+	<br><br>But there is something in the way: her own immeasurable fear, the shadows of the past, her memories, her complicity in 	the deaths of others. The monster-like creature of her fear, guilt and despair allows her barely no rest. Even the bright day is not a safe refuge.
+	<br><br>But on the contrary... Fear knows no time of day... </div>
+        
+      </div>
+      <div class="row">
+        <div class="col-6 col-md-4">&nbsp;</div>
+        <div class="col-6 col-md-4">&nbsp;</div>
+        <div class="col-6 col-md-4"><blockquote class="blockquote blockquote-reverse">
+"In this International Criminal Court,
+the girl soldiers will not be invisible."</blockquote>
+       </div>	
+       </div>
+       <div class="row">
+        <div class="col-6 col-md-4">&nbsp;</div>
+        <div class="col-6 col-md-4">&nbsp;</div>
+        <div class="col-6 col-md-4" style="text-align: center">LUIS MORENO OCAMPO</div>	
+       </div>
+       <div class="row">
+        <div class="col-6 col-md-4">&nbsp;</div>
+        <div class="col-6 col-md-4">&nbsp;</div>
+        <div class="col-6 col-md-4" style="text-align: right">Former Prosecutor ICC</div>	
+       </div></div>
+
+    </section>
+
+    <!-- Intetions Section -->
+    <section id="intentions" class="container text-justify">
+    <br /> <br /> 
+<div class="card card-outline-danger" style="background-color: #66878D; max-width: 20rem; height: 4rem; border-color: white">
+
+<div class="card-block"><center>
+<h5 style="#">INTENTIONS</h3>
+</div>
+<center>
+</div><!-- Close Card-->
+<br />
+      <div class="row">
+	  <div class="col-12 col-md-12"style="text-align: left">
+	  <dl>
+		<dt  style="color: #0087D0; font-size: 20px">FILM MAKER'S INTENTION</dt>
+		<dd> 
+		<abbr title="SCREENWRITER & DIRECTOR" class="initialism" style="color: #AD6929; font-size: 13px">MICHELE GENTILE</abbr> | SCREENWRITER & DIRECTOR
+		</dd>
+	  </dl>
+	</div>
+	</div><!-- Close row -->
+       
+	<div class="row">
+        <div class="col-6 col-md-4"<div  style=" padding: 0cm 0cm 0.5cm 1cm">
+	<div class="card card-outline-danger" style="max-width: 20rem; border-color: #55ACEE">
+
+<div class="card-block"><center>
+<img src="img/12s.jpg" class="img-rounded pull-xs-left img-fluid" alt="Photo of Michele Gentile">
+</div>
+<center>
+</div><!-- Close Card-->
+<!-- Start Personal-->
+<div class="personal-sm">
+                                                        <a href="#" class="email-ic"><i class="fa fa-home"> </i>&nbsp;&nbsp;</a>
+                                                        <a href="#" class="fb-ic"><i class="fa fa-facebook"> </i>&nbsp;&nbsp;</a>
+                                                        <a href="#" class="tw-ic"><i class="fa fa-twitter"> </i>&nbsp;&nbsp;</a>
+                                                        <a href="#" class="gplus-ic"><i class="fa fa-google-plus"> </i>&nbsp;&nbsp;</a>
+                                                        <a href="#" class="li-ic"><i class="fa fa-linkedin"> </i>&nbsp;&nbsp;</a>
+                                                        <a href="#" class="email-ic"><i class="fa fa-envelope-o"> </i></a>
+                                                    </div>
+<!-- Close Personal -->
+	</div>
+        <div class="col-12 col-md-8">After completion of my first feature-length documentary, "THE COURT," I remained fascinated with the fate of child soldiers. Much of our research material that we collected for the documentary could not be used because it was too cruel. Even the material we included in the finished film led to violent reactions and protests from our fans. These reactions made me realize how absolutely unimaginable the experiences of child soldiers are to Western and European audiences. I started thinking about how to help the general public understand and even experience this fear through film.<br />The courage of witnesses at the International Criminal Court has never ceased to amaze me. They find 
+		</div>
+      </div><!-- Close row -->
+            
+      <div class="row">
+        <div class="col-12 col-md-12">themselves in the foreign environment of another continent, in Europe, with only a short time to learn how to cope with the full horror that revisiting their experiences brings back to life. The experience of examination and cross-examination in court, before Judges, court officials and the defendant him or herself adds an incredible amount of pressure. What more can illustrate the challenge these former child soldiers confront than having to face their tormentors, face what was done to them and what they were made to do, in a past that is never truly past?<br />
+
+<br />Through my research and the shooting of "THE COURT" I have gained understanding as to how witnesses are looked after during their stay in The Hague and how they live. On this basis, I feel comfortable to convey accurately and with great empathy the story of a single child soldier's journey through the process of seeking justice. This fictional character should reflect the fate of many real-life child soldiers, not only their
+experiences in combat, but the torture that led up to to their release and which follows them in the months and years to come. In particular, the sexual abuse of children and their fates, tied up with those of the children born of sexual abuse, have moved and shaken me to my core. These young people face a lifelong stigma from their family and society even after their liberation that is hard for them to endure and difficult for others to
+truly understand; their past is never truly past.<br />
+<br />The genre of the thriller film draws large audiences; as a category of popular culture, it is as popular as comedies. I believe it is the perfect vehicle to introduce a general audience to the work of the International Criminal Court and the fate of child soldiers. The all too human stories can get lost in the intricacies of the difficult and lengthy procedures of the International Criminal Court; it is important to retrieve the individuals
+concerned from that maze and lift them up for public view and understanding. I believe that viewers will immediately identify with our heroine. The cinematic approach will enhance their sense of connection with her; from the first frames of the film until the closing credits, she will always be present on screen, front and center, or in the margins. She will no longer be invisible, unseen and uncounted. <a href="#footwear">Read more . . .</a>
+</div>  
+      </div>
+      
+       </div><!-- Close row -->
+<p></p>
+</section>
+
+<!-- Christiane Section -->
+    <section id="christiane" class="container text-justify">
+	        <hr>
+<hr>	<!-- Start of Christian Gentile -->
+	<div class="row">
+	  <div class="col-12 col-md-12"style="text-align: right">
+	  <dl>
+		<dt  style="color: #0087D0; font-size: 20px">WRITER'S INTENTION</dt>
+		<dd> 
+		<abbr title="CO-SCREENWRITER" class="initialism" style="color: #AD6929; font-size: 13px">CHRISTIANE GENTILE</abbr> | CO-SCREENWRITER
+		</dd>
+	  </dl>
+	</div>
+	</div><!-- Close row -->
+	
+        <div class="row">
+            <div class="col-12 col-md-8">In May 2013, my son Michele Gentile and his co-director Marcus Vetter released their documentary "THE COURT." I had the opportunity to track the film's development since autumn of 2012. Before then, I only knew of the fate of child soldiers through occasional media coverage. But now I was faced with the unimaginably intense fate of these children. Through preparatory materials for the film, I saw footage of cruelty to children, as well as the destruction of villages and the murder of their inhabitants. I will never forget the image of vultures eating the dead.<a href="#footwear"> Read more . . .</a>
+		</div> 	
+        <div class="col-6 col-md-4"<div  style=" padding: 0cm 0cm 0.5cm 1cm">
+	<div class="card card-outline-danger" style="max-width: 20rem; border-color: #55ACEE">
+
+<div class="card-block"><center>
+<img src="img/christiane.jpg" class="img-rounded pull-xs-left img-fluid" alt="Photo of Christiane Gentile">
+</div>
+<center>
+ </div><!--Close Card -->
+ <!-- Start Personal-->
+<div class="personal-sm">
+                                                        <a href="#" class="email-ic"><i class="fa fa-home"> </i>&nbsp;&nbsp;</a>
+                                                        <a href="#" class="fb-ic"><i class="fa fa-facebook"> </i>&nbsp;&nbsp;</a>
+                                                        <a href="#" class="tw-ic"><i class="fa fa-twitter"> </i>&nbsp;&nbsp;</a>
+                                                        <a href="#" class="gplus-ic"><i class="fa fa-google-plus"> </i>&nbsp;&nbsp;</a>
+                                                        <a href="#" class="li-ic"><i class="fa fa-linkedin"> </i>&nbsp;&nbsp;</a>
+                                                        <a href="#" class="email-ic"><i class="fa fa-envelope-o"> </i></a>
+                                                    </div>
+<!-- Close Personal -->
+	</div>
+      
+      </div><!-- Close row -->
+      
+      <div class="row">
+
+	<div class="col-12 col-md-12">
+
+	In reflecting on these things I saw and learned, I agreed on the need to address the fate of child soldiers in a feature film. We wanted, through the action of a popular film to create a greater identification of the spectator with the actor, built on a well-considered movie plot and on sound documentary material and evidence. Our intention is to reach the widest possible audience and to highlight the incredible horrors to which these children are exposed. The genre of thrilling horror seemed a natural fit in this regard. Our aim is to make a psychological thriller that draws traditional lovers of the genre; making a film that contributes to the genre on its own merits is one goal. The other is to share something new with viewers that makes them think a little differently about the real world by the end of the film. It is important to understand that the horror is not meant to be gratuitous or overly bloody or gory.
+
+	</div><!-- close col-12 col-md-8 -->
+      </div> <!-- Close row -->
+      <br />
+   <!-- Start new Row--> 
+<div class="row" class="text-center">
+	  <div class="col-3"><center><img src="img/24m.jpg" class="img-rounded pull-xs-left img-fluid"></div>
+	  <div class="col-3"><center><img src="img/25m.jpg" class="img-rounded pull-xs-left img-fluid"></div>
+	  <div class="col-3"><center><img src="img/22m.jpg" class="img-rounded pull-xs-left img-fluid"></div>
+	  <div class="col-3"><center><img src="img/23m.jpg" class="img-rounded pull-xs-left img-fluid"></div>
+	</div>
+<!-- Close new Row -->
+<br />
+   <!-- Start new Row--> 
+<div class="row" class="text-center">
+	  <div class="col-3"><center><pre>Child soldier in Congo</pre></div>
+	  <div class="col-3"><center><pre>F.l. former prosecutor of the 
+ICC Luis Moreno Ocampo and
+f.r. current prosecutor
+Fatou Bensouda</pre></div>
+	  <div class="col-3"><center><pre>Former child soldier Emmanuel 
+Jal in discussion with Angelina
+Jolie</pre></div>
+	  <div class="col-3"><center><pre>Destroyed village in Congo 2002</pre></div>
+	</div>
+<!-- Close new Row -->
+<br>
+<!--New Row -->
+    <div class="row">
+
+	<div class="col-12 col-md-12">
+
+	My conviction is that such a movie can bring its audience to a much different understanding of and appreciation for the fate of the child soldiers, based on a strong script and high production values and a commitment to excellence and professionalism. I myself am a writer and have worked as a journalist. In the horror story I orient myself in my imagination towards the style and content of the classic films of Roman Polanski, such as "The Tenant" and "Rosemary’s Baby."<a href="#footwear"> Read more . . .</a>
+
+	</div><!-- close col-12 col-md-8 -->
+      </div> <!-- Close row -->
+<!-- End New Row-->
+ <hr>	<!-- End of Christian Gentile -->      
+
+    </section><!-- End Of Section Intentions -->
+
+<!-- Start of Jennifer Schense Section -->
+    <section id="jennifer" class="container text-justify">
+	        <hr>
+<hr>	<!-- Start of Jennifer Schense -->
+	<div class="row">
+	  <div class="col-12 col-md-12"style="text-align: right">
+	  <dl>
+		<dt  style="color: #0087D0; font-size: 20px">PRODUCER'S INTENTION</dt>
+		<dd> 
+		<abbr title="PRODUCER" class="initialism" style="color: #AD6929; font-size: 13px">JENNIFER SCHENSE</abbr> | CO-SCREENWRITER
+		</dd>
+	  </dl>
+	</div>
+	</div><!-- Close row -->
+	
+        <div class="row">
+	       <div class="col-6 col-md-4"<div  style=" padding: 0cm 0cm 0.5cm 1cm">
+	<div class="card card-outline-danger" style="max-width: 20rem; border-color: #55ACEE">
+
+<div class="card-block"><center>
+<img src="img/jennifer.jpg" class="img-rounded pull-xs-left img-fluid" alt="Photo of Jennifer Schense">
+</div>
+<center>
+ </div><!--Close Card -->
+ <!-- Start Personal-->
+<div class="personal-sm">
+                                                        <a href="#" class="email-ic"><i class="fa fa-home"> </i>&nbsp;&nbsp;</a>
+                                                        <a href="#" class="fb-ic"><i class="fa fa-facebook"> </i>&nbsp;&nbsp;</a>
+                                                        <a href="#" class="tw-ic"><i class="fa fa-twitter"> </i>&nbsp;&nbsp;</a>
+                                                        <a href="#" class="gplus-ic"><i class="fa fa-google-plus"> </i>&nbsp;&nbsp;</a>
+                                                        <a href="#" class="li-ic"><i class="fa fa-linkedin"> </i>&nbsp;&nbsp;</a>
+                                                        <a href="#" class="email-ic"><i class="fa fa-envelope-o"> </i></a>
+                                                    </div>
+<!-- Close Personal -->
+	</div>
+            <div class="col-12 col-md-8">I come to the process of making "Malia" rather circuitously, having started not as a filmmaker but as an international lawyer, having studied first the Russian language and Russian area studies, then law, in particular international and human rights law. I spent six years working for the International NGO Coalition for the International Criminal Court (CICC), followed by nearly twelve years in the ICC Office of the Prosecutor in The Hague, serving mostly as an International Cooperation Adviser and in that capacity, opening doors for the investigations in Darfur and Libya. 
+		</div> 	
+ 
+      
+      </div><!-- Close row -->
+
+<div class="row">
+
+	<div class="col-12 col-md-12">
+
+	My work has taken me all over Africa and the Middle East, as well as frequently to New York to the United Nations with the Prosecutor, to brief the UN Security Council. In the course of working for the ICC Office of the Prosecutor, I have also completed a PhD at the University of Leiden on whether international crimes can be prevented, have begun blogging on Tumblr about prevention-related issues, and have acted as the Lead Editor and a Senior Consultant to the International Academy Nuremberg Principles in the production of a book on deterrence and international courts and tribunals, to be launched at an event in November 2016 in Nuremberg, commemorating the 70th anniversary of the Nuremberg Trials, and thereafter at the ICC Assembly of States Parties in The Hague in mid-November 2016.<a href="#footwear"> Read more . . .</a>
+
+	</div><!-- close col-12 col-md-8 -->
+      </div> <!-- Close row -->
+      
+ <hr>	<!-- End of Jennifer Schense -->      
+
+    </section><!-- End of Jennifer Schense End Of Section-->
+ 
+   <!-- Start Olara Holger Section -->
+  <section id="olaraholger" class="container text-justify" style="background:url(img/iccbuilding.jpg) no-repeat" >
+    <br />
+      <div class="row">
+        <div class="col-6">
+	
+		<!-- Start of Florence Olara -->
+	<div class="row">
+	  <div class="col-12 col-md-12"style="text-align: left">
+	  <dl>
+		<dt  style="color: #0087D0; font-size: 20px">PRODUCER'S INTENTION</dt>
+		<dd> 
+		<abbr title="PRODUCER" class="initialism" style="color: #AD6929; font-size: 13px">FLORENCE OLARA</abbr> | PRODUCER
+		</dd>
+	  </dl>
+	</div>
+	</div><!-- Close row -->
+	
+        <div class="row">
+	       <div class="col-6 col-md-4"<div  style=" padding: 0cm 0cm 0.5cm 1cm">
+	<div class="card card-outline-danger" style="max-width: 20rem; border-color: #55ACEE">
+
+<div class="card-block"><center>
+<img src="img/image018.png" class="img-rounded pull-xs-left img-fluid" alt="Photo of Florence Olara">
+</div>
+<center>
+ </div><!--Close Card -->
+ <!-- Start Personal-->
+<div class="personal-sm">
+                                                        <a href="#" class="email-ic"><i class="fa fa-home"> </i>&nbsp;&nbsp;</a>
+                                                        <a href="#" class="fb-ic"><i class="fa fa-facebook"> </i>&nbsp;&nbsp;</a>
+                                                        <a href="#" class="tw-ic"><i class="fa fa-twitter"> </i>&nbsp;&nbsp;</a>
+                                                        <a href="#" class="gplus-ic"><i class="fa fa-google-plus"> </i>&nbsp;&nbsp;</a>
+                                                        <a href="#" class="li-ic"><i class="fa fa-linkedin"> </i>&nbsp;&nbsp;</a>
+                                                        <a href="#" class="email-ic"><i class="fa fa-envelope-o"> </i></a>
+                                                    </div>
+<!-- Close Personal -->
+	</div>
+            <div class="col-12 col-md-8">I am Florence Olara. I am originally from Uganda and spent my early years in a number of countries in the Great Lakes region of Africa, fleeing wars. Eventually, members of my family sought refuge in the United Kingdom. Despite my back-to-back experience of war and being a child refugee multiple times, my memorable experience was also witnessing humans being human and acting humanely towards one
+		</div> 	
+ 
+      
+      </div><!-- Close row -->
+      
+           <div class="row">
+        <div class="col-12 col-md-12"> another, trying to help those in need whenever they could. This experience led me to the field of international criminal justice and working at the International Criminal Court because I believe the Court is a key tool in eventually breaking the cycle of violence around the world.<br />
+
+<br />A few years ago Jennifer Schense told me about an idea she had to create the House of Nuremberg, a company that would produce a number of materials including film and books, to highlight global issues. I loved the idea. As someone who experienced war multiple times, the need to highlight global issues is closer to me than most. To help us in this process, we also enlisted the help of German filmmaker Michele Gentile who also strongly believes in using film as a medium to highlight global issues and educate the masses.<br />
+
+<br />I am the Chair of the Peace, Justice and Security Foundation in the establishment of the House of Nuremberg. Even when removed from where Malia experienced the terrible atrocity of being a child soldier, the horror of what she experienced travels with her. Her battle in fighting this inner demon is not just for herself but for many other victims just like her. This is why I have committed the Foundation to this project.<a href="#footwear"> Read more . . .</a>
+</div>  
+      </div>
+      
+ <hr>	<!-- End of Olara Florence -->
+	
+<center>	
+
+<br />
+ 
+
+<!-- Text begins -->
+
+<!-- End of text -->
+	</div><!-- Close col 6 -->
+	        <div class="col-6" style=""> 
+		
+				<!-- Start of Holger Bergmann -->
+	<div class="row">
+	  <div class="col-12 col-md-12"style="text-align: right">
+	  <dl>
+		<dt  style="color: #0087D0; font-size: 20px">PRODUCER'S INTENTION</dt>
+		<dd> 
+		<abbr title="PRODUCER" class="initialism" style="color: #AD6929; font-size: 13px">HOLGER BERGMANN</abbr> | PRODUCER
+		</dd>
+	  </dl>
+	</div>
+	</div><!-- Close row -->
+	
+        <div class="row">
+	       <div class="col-6 col-md-4"<div  style=" padding: 0cm 0cm 0.5cm 1cm">
+	<div class="card card-outline-danger" style="max-width: 20rem; border-color: #55ACEE">
+
+<div class="card-block"><center>
+<img src="img/image020.png" class="img-rounded pull-xs-left img-fluid" alt="Photo of Holger Bergmann">
+</div>
+<center>
+ </div><!--Close Card -->
+ <!-- Start Personal-->
+<div class="personal-sm">
+                                                        <a href="#" class="email-ic"><i class="fa fa-home"> </i>&nbsp;&nbsp;</a>
+                                                        <a href="#" class="fb-ic"><i class="fa fa-facebook"> </i>&nbsp;&nbsp;</a>
+                                                        <a href="#" class="tw-ic"><i class="fa fa-twitter"> </i>&nbsp;&nbsp;</a>
+                                                        <a href="#" class="gplus-ic"><i class="fa fa-google-plus"> </i>&nbsp;&nbsp;</a>
+                                                        <a href="#" class="li-ic"><i class="fa fa-linkedin"> </i>&nbsp;&nbsp;</a>
+                                                        <a href="#" class="email-ic"><i class="fa fa-envelope-o"> </i></a>
+                                                    </div>
+<!-- Close Personal -->
+	</div>
+            <div class="col-12 col-md-8">Child soldiers - a topic which is very far away for us in Western Europe. One sometimes hears this term in the news, but hardly anyone is aware of the reality it represents. How does a child become a perpetrator? How much suffering does a child endure in this transformation, being forced to kill, just to save his or her own life? How can this horrible transformation end in justice?
+Can the clock be turned back? 
+		</div> 	
+ 
+      
+      </div><!-- Close row -->
+      
+           <div class="row">
+        <div class="col-12 col-md-12">Michele and Christiane Gentile dare to tackle this topic and to put the startling true story of child soldiers at the heart of their film, Malia. Against the background of the real-life conviction of the DRC militia leader Thomas Lubanga by the International Criminal Court in The Hague, the story of Malia emerged, based on true statements, narrations and memories of the victims and witnesses surrounding this case.<br />
+
+<br />Even ten years after Malia's cruel childhood experiences, fear is her constant companion. The filmgoer accompanies her on a journey through her memories - the violent death of her parents, and the choice either to be slaughtered senselessly or to be part of a bestial war machine as a child soldier. Mistreatment, rape, and the struggle for survival - her gun is the only belonging she retains. After years, Malia comes face to face with the spirit that has become the symbol of her suffering: her former militia leader, against whom she will now testify, at great personal sacrifice, before the International Criminal Court.<br />
+<br />I find it important to tell stories that show how essential it is not to hide but to face the past with bravery. Only in this way can there be justice instead of forgetting; only in this way can we prevent future horrors. <a href="#footwear">Read more . . .</a>
+</div>  
+      </div>
+      
+ <hr>	<!-- End of Holger Bergmann -->
+ 
+ 
+<center>	
+
+
+ <span style="font-size: 1.0em; color: white"><br />
+<!-- I am not sure of this spot and divs ???? -->
+</div>
+<!-- I am not sure of this spot and divs ???? -->
+      </div>
+ </div>
+
+      <div class="row">
+        <div class="col-6 col-md-4">&nbsp;</div>
+        <div class="col-6 col-md-4">&nbsp;</div>
+        <div class="col-6 col-md-4">
+<img src="img/image019.png" width="87" height="75" class="img-rounded pull-xs-center img-fluid" alt="Photo of ICC Building at the Hage"><pre>ICC Building | The Hague</pre>
+       </div>	
+       </div>
+
+
+</div>
+
+    </section>
+<!-- End Of Olara Bolger Section -->
+
+
+    <!-- House Of Nuremburg Brief Summary Section -->
+  <section id="nuremburgbriefsummary" class="container text-justify" style="background:url(img/paer.jpg) repeat-y" >
+    <br />
+      <div class="row">
+        <div class="col-6">
+<center>	
+<div class="card card-outline-danger" style="background-color: #66878D; max-width: 25rem; height: 5rem; border-color: white">
+
+<div class="card-block text-left">
+<img src="img/image120.png" width="57" height="44" class="img-fluid">
+<span style="font-size: 1.2em; color: white"><strong>HOUSE OF NUREMBURG</strong></span>
+</div>
+
+</div><!-- Close Card-->
+<br />
+     
+ <div class="row">
+        <div class="col-md-12 text-justify" style="font-size: 1.0em; color: white"> The House is a for-profit company incorporated in The Hague, the Netherlands, whose mission is to explore, elaborate on and popularize concepts of justice, building on the experiences of the Nuremberg Trials and on the history of Nuremberg more generally. The name House of Nuremberg, in particular, evokes an image of
+a common living and working space, and conveys the idea that all are welcome within the same house, that all are welcome to come to Nuremberg to contribute. This is particularly important in building not only on the Nuremberg trial experience, but also in answering to the other legacy of Nuremberg, that of the race laws, prejudice, and exclusionism. The idea of the House of Nuremberg is meant to convey that everyone is
+welcome.<br /><br />
+The House of Nuremberg is established as a for-profit institution, similar to a house of fashion, to develop
+projects and collaborations in the fields of film, writing and publishing to start, with possible extension into
+fashion, architecture and other fields of art, once the House is firmly established. The House of Nuremberg's
+initial products will be in the field of film and potentially television.<br /><br />
+The House of Nuremberg is established as a for-profit institution for two reasons: first, to emphasize that
+products elaborating on concepts of justice in the fields of film, television, publishing and other fields of
+art can be profitable and do not require a strictly charitable approach to their production and distribution.
+Likewise, creating and sustaining space for dialogue about justice does not require the framework of a nonprofit
+or non-governmental organization. And second, to emphasize that the House of Nuremberg itself can
+be financially self-sustaining. It is the goal of the House's founders for the House of Nuremberg to become a
+serious, well-recognized, mainstream production house, with the financial capacity to support the long-term
+popularization of both fictional and documentary films, worldwide. Toward this end, it will produce films
+and other products in-house, as well as acquiring films from established and promising new filmmakers
+who have produced outstanding films but who do not have the capacity to ensure their distribution. The
+House will appeal to forward-thinking financiers who recognize the value of excellence in both fictional
+and documentary filmmaking and other artistic products on justice issues, both from the perspective of the
+dialogue they can create and from the perspective of their value as investments. Finally, the goal for the House
+of Nuremberg is to be in a position to financially support other initiatives that serve the vision and goals of
+the House. For this reason, the House of Nuremberg will donate a portion of its profits to charitable ventures
+that represent the spirit and ethic of the House, including through supporting the work of the Peace, Justice
+and Security Foundation. It will endeavour to do so in a way that draws attention to worthwhile causes at a
+time intended to consolidate their further support, worldwide.<br /><br />
+	    
+			    </div>
+      </div>     
+
+<!-- Text begins -->
+
+<!-- End of text -->
+	</div><!-- Close col 6 -->
+	        <div class="col-6" style=""> 
+<center>	
+<div class="card card-outline-danger" style="background-color: #66878D; max-width: 25rem; height: 5rem; border-color: white">
+
+<div class="card-block"><center>
+<span style="font-size: 1.2em; color: white"><strong>BRIEF SUMMARY</strong></span>
+</div>
+
+</div><!-- Close Card-->
+<br>
+      <div class="row text-justify">
+            <div class="col-12 col-md-8">Malia's world is not easy to enter. She has experienced things that are hard to
+describe and even more difficult to understand, but we invite the filmgoer to stand with
+her nonetheless and to see the world through her eyes. Malia has been a child soldier,
+enslaved, abused, and threatened constantly with death for years. How can a viewer
+truly understand and experience this, in such a way that is exciting and challenging, and
+ultimately hopeful?<br /><br />
+
+And where is justice? The International Criminal Court - the ICC in The Hague - is
+fighting for this on behalf of the world community. At this place, committed people
+work to ensure that the greatest criminals of our time do not get away with impunity.
+Malia is here to help. Her testimony is essential to bring her former tormentor to justice
+and ultimately to put him in prison.<br /><br />
+
+Malia is not alone. Her attorney Alice and her guardian Antonia from the witness
+protection program of the ICC stand by her side. Soon they become familiar people, who
+accompany Malia in the difficult passage to the witness stand. And then there is Jolene,
+her beloved little daughter, who, although she comes from the rape of her
+		</div> 	
+        <div class="col-6 col-md-4"<div  style=" padding: 0cm 0cm 0.5cm 1cm">
+	<div class="card card-outline-danger" style="max-width: 20rem; border-color: #55ACEE">
+
+<div class="card-block" style="font-size: 0.6em"><center>
+CINEMA RELEASE:
+APPROX. 2018
+<br /><br />
+SHOOTING DATES:
+<br />APPROX. March 2017 - August 2017
+<br /><br />
+FORMAT/DURATION:
+<br />4K CINE-SCOPE/DOLBY DIGITAL/120MIN
+<br /><br />
+LANGUAGE:
+ENGLISH (ORIGINAL VERSION),
+GERMAN + FRENCH DUB
+<br /><br />
+DIRECTED BY:
+MICHELE GENTILE
+<br /><br />
+DIRECTOR OF PHOTOGRAPHY:
+JORG WIDMER
+<br /><br />
+CAST:
+<br />"MALIA" - OPEN
+"ANTONIA" - OPEN
+"ALICE" - KATJA RIEMANN
+<br/><br/>
+WRITTEN BY:
+<br>CHRISTIANE & MICHELE GENTILE
+<br /><br />
+EXECUTIVE PRODUCER:
+JENNIFER SCHENSE, CAT KUNG FU BV, 
+FLORENCE OLARA, ICC THE HAGUE
+<br /><br />
+PRODUCER:
+HOLGER BERGMANN
+<br /><br />
+WEBSITE:
+www.malia-movie.com
+</div>
+
+ </div><!--Close Card -->
+
+	</div>
+      
+      </div><!-- Close row -->
+      
+      <!-- Open New Row -->
+
+<div class="row">
+	  <div class="col-12 text-justify">
+ mother, is Malia's whole happiness. With her help, Malia finally finds the courage to face her past.The idea of a feature film about a former child soldier, whose story represents the fate of many thousands of others, came from director Michele Gentile, following the completion of his documentary film about the International Criminal Court in The Hague and following the successful completion of the first ICC case against Thomas Lubanga Dyilo, a militia leader who enslaved hundreds of child soldiers and forced
+them to commit and endure inhuman acts. Only with the help of the testimony of his victims could he be finally condemned to prison.<a href="#footwear"> Read more . . .</a>
+	  </div>
+	</div>
+
+<!-- Close New Row -->
+</div>
+        
+      </div>
+ </div>
+
+    </section>
+<!-- End Of House of Nurember Brief Summary Section -->
+
+   <!-- Start Of Character Section -->
+  <section id="characters" class="container text-justify" style="background:url(img/paer.jpg) repeat-y" >
+    <br />
+      <div class="row">
+        <div class="col-6">
+<center>	
+<div class="card card-outline-danger" style="background-color: #66878D; max-width: 20rem; height: 4rem; border-color: white">
+
+<div class="card-block"><center>
+<span style="font-size: 1.2em; color: white"><strong>CHARACTERS</strong></span>
+</div>
+
+</div><!-- Close Card-->
+<br />
+     
+ <div class="row">
+        <div class="col-md-12 text-justify" style="font-size: 1.0em; color: white"> 
+	<strong>MALIA NASUNA</strong>
+	<br>is the film's protagonist. She is a young woman of 23 years, who comes from the Democratic Republic of
+Congo. During the Second Congo War in 2002-2003, she was stolen from her home at the age of 13 and forced
+to join the private army of Thomas Lubanga Dyilo, a self-proclaimed militia leader, to fight as a child soldier.
+Her parental home was destroyed in the course of her abduction, and she was forced to witness the murder
+of her parents and the disappearance of her siblings. A commander of the militia regularly sexually abused
+Malia from the age of 13 to 14. This abuse led to pregnancy and the birth of her daughter, Jolene. Her left
+hand is missing her ring finger, which her former commander chopped off as punishment. At the age of 14,
+Congolese government soldiers liberated Malia from captivity. She moved in with her newborn daughter to
+the childrens' home of a Christian organization. Since the age of 18, Malia has also worked for the Christian
+organization. After her liberation, Malia had to have a hysterectomy, as the multiple rapes had so physically
+damaged her, she could not recover.<br /><br />
+
+<strong>ANTONIA JONKER</strong>
+<br />is 45 years old and Dutch. She is a psychotherapist and lawyer and works in the witness protection program
+of the International Criminal Court (ICC) as a caregiver. Antonia is a maternal type. She is very gentle with
+Malia, but can also be very energetic. She is married and has two daughters, ages 22 and 19. Antonia speaks
+cautiously and in a friendly manner with Malia. She tries to cheer up Malia and to help her to adjust to this
+temporary Western life. Antonia accompanies Malia to the ICC to give her testimony, and stays with her until
+Malia boards the plane back to Africa.<br /><br />
+
+<strong>ALICE HOFFMANN</strong>
+<br />is a lawyer, hired by the victims participation and reparation unit to represent Malia as a victim before the
+court. She takes it upon herself to help Malia refresh her memories in preparation for her testimony in
+court. She is around 45 years old, slim and although she always remains calm, she can't shake the impact
+of the terrible things she reads about and deals with, day after day. Alice is idealistic, but also sober and
+professional. Alice tries to remain calm and collected, as Malia's increasing fears make it harder and harder
+for her to testify. Alice knows how much of the case rests on Malia's testimony.<br /><br />
+
+<strong>JOLENE NASUNA</strong>
+<br />is 9 years old and follows her mother some time later to The Hague. She is a happy and keen child. Jolene
+suspects much of what her mother experienced, although they have not really discussed it, as Malia believes
+she is too young to know. Jolene is intelligent and has a clear idea of her future. She wants to be a pilot. She
+is living together with her mother at a home run by a Christian organisation in Uganda and is going to school
+there. Her English skills are very good. Jolene has become a kind of caregiver for her traumatized mother. She
+arrives two days before Malia’s testimony in The Hague.<br /><br />    
+			    </div>
+      </div>     
+
+<!-- Text begins -->
+
+<!-- End of text -->
+	</div><!-- Close col 6 -->
+	        <div class="col-6" style=""> 
+<br /><br /><br />
+ <span style="font-size: 1.0em; color: white"><br />
+<div class="row">
+            <div class="col-md-12 text-justify"><strong>ODONGO KALANZI</strong>
+<br />is a six-year-old boy, whom Malia encountered during a raid on his village. Malia had tried to warn away
+Odongo during the raid. The commander however noticed this and tried to force Malia to shoot Odongo. Malia
+refused, and finally, the commander himself shot Odongo in front of Malia.<br /><br />
+<strong>MALIA'S MOTHER JOLENE</strong>
+<br />was killed during the raid when the militia stole her daughter. In a dreamlike vision the night before Malia's
+testimony, she appears to Malia, singing in support with other family members from the village.<br /><br />
+<strong>THE BEING</strong>
+<br />is a reflection of Malia. The monster-like creature represents in essence the materialization of Malia’s fears
+and experiences, which she has until now kept hidden inside her. It has a terrible tooth mouth, a skeletal
+body and long bony legs. It only appears to Malia in the apartment. Each foot has three long claws, which can
+be heard clicking against the floor of the apartment when it walks around. Although by nature, it has little
+physical substance and moves in an unnatural and edgy way, it appears to be of heavy weight, and runs like
+a large predator. The muting of all background noise presages its appearance, and scares Malia so badly, she
+can barely move. It feeds on Malia’s fears, in particular her fear that her experiences have made her somehow
+a monster, that this part of her will never leave her. Only with Jolene's arrival, does it gradually lose its power
+and substance. But it is never truly gone.<br /><br />
+
+</div>
+          </div>
+<br />
+<div class="row">
+            <div class="col-md-12 text-justify"><img src="img/image024.png" width="669" height="156" class="img-fluid"></div>
+</div>
+<br />
+<div class="row">
+            <div class="col-md-12 text-right">FIRST CREATURE DESIGN <span style="font-size: 0.6em"> BY ANNA MAIER</span></div>
+          </div>
+
+</div>
+        
+      </div>
+ </div>
+
+    </section>
+<!-- End Of Character Section -->
+
+<!-- Video Bg-->
+<!--Carousel Wrapper-->
+    <div id="video-carousel-example2" class="carousel slide carousel-fade" data-ride="carousel">
+        <!--Indicators-->
+        <ol class="carousel-indicators">
+            <li data-target="#video-carousel-example2" data-slide-to="0" class="active"></li>
+            <li data-target="#video-carousel-example2" data-slide-to="1"></li>
+        </ol>
+        <!--/.Indicators-->
+
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+            <!--First slide-->
+            <div class="carousel-item active">
+                <!--Mask color-->
+                <div class="view hm-black-light">
+
+                    <!--Video source-->
+                    <video class="video-full" autoplay loop>
+                        <source src="vid/MaliamovieClip.mp4" type="video/mp4" />
+                    </video>
+                    <div class="full-bg-img"></div>
+                </div>
+
+                <!--Caption-->
+                
+                <!--Caption-->
+            </div>
+            <!--/First slide-->
+
+            <!--Second slide-->
+            <div class="carousel-item">
+                <!--Mask color-->
+                <div class="view hm-black-light">
+                    <!--Video source-->
+                    <video class="video-full" autoplay loop>
+                        <source src="vid/Home-Video.mp4" type="video/mp4" />
+                    </video>
+                    <div class="mask"></div>
+                </div>
+
+                <!--Caption-->
+               
+                <!--/.Caption-->
+            </div>
+            <!--/Second slide-->
+
+            <!--Third slide-->
+
+            <!--/Third slide-->
+        </div>
+        <!--/.Slides-->
+
+        <!--Controls-->
+        <a class="carousel-control-prev" href="#video-carousel-example2" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#video-carousel-example2" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        <!--/.Controls-->
+    </div>
+    <!--/.Carousel Wrapper-->
+<!-- End Video Bg -->
+
+    <!-- Malia Apartment Section -->
+        <section id="maliaapartment">
+   <!-- Intro Header -->
+    <header class="mastheadapartment">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 offset-md-2">
+		    <hr>
+                        <h3 class="">Malia's Apartment</h3>
+			<img src="img/filmstrip.png" width="669" height="156" class="img-fluid">
+				<br />When we began planning for this film, we envisioned a flat that would fit Malia's needs and would berealistic, in accordance with the ICC's practices. After detailed research on various locations throughout The
+Hague, we realized that we would need to build the flat in a production studio, to be able to move walls and realize the unique and challenging camera moves that will define this film's identity. To better understand how we envision this process unfolding, we have produced a 3D model of the flat with realistic measurements, which allows the viewer to "walk" through it. We view this as yet another step towards bringing this film and Malia's story to life.
+		     
+			    <p class="intro-text" style="font-size: 0.9em"><br />WALK THROUGH THE FLAT AND LOOK AT THE DIFFERENT PERSPECTIVES<br /> <a href="https://skfb.ly/VCNB" style="color: red">https://skfb.ly/VCNB</a>
+                            </p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    </section>
+<!-- End Of Malia Apartment Section -->
+
+   <!-- Here the MALIA Section -->
+  <section id="malia" class="container text-justify" style="" >
+    <br />
+    <div class="card card-outline-danger" style="background-color: #66878D; max-width: 20rem; height: 4rem; border-color: white">
+
+<div class="card-block"><center>
+<h5 style="#">MALIA</h3>
+</div>
+<center>
+</div><!-- Close Card-->
+           <div class="row">
+            <div class="col-12 col-md-8"><br />There is this special smile that Malia cannot forget. The smile of a girl. It is the only thing Malia does not want to forget, from the time in her life she must now recall. This smile has suddenly returned to her. It was dangerous for a girl to smile the first time Malia met her. No one else would have dared. Only this girl had done it and only for her.
+<br /><br />In the breaks between fighting every day, the rifles had to be cleaned. Malia had guarded her rifle like nothing else. It was the only thing she had succeeded in guarding, as her body, her soul and her spirit had had to survive without protection, her soul crushed, her spirit dulled, her body raped. And then, in the midst of this abyss, as she was cleaning her rifle, there had come this person, robbed from the lap of her family, like
+her, with that smile. They became girlfriends without words and companions in horror without thinking or hesitating. One was for the other. If someone gives you a piece of his bread because she sees that you are still hungry, even though she should eat it herself, is there a greater love?<a href="#footwear"> Read more . . .</a>
+		</div> 	
+        <div class="col-6 col-md-4" style=" padding: 0cm 0cm 0.5cm 1cm">
+	<img src="img/22malia.jpg" class="img-rounded pull-xs-left img-fluid" alt="Photo of Malia's night stand and accessories">
+	<pre>Malia's framed picture under the night 
+	stand in her bedroom<br> Sketchfab | https://skfb.ly/VNCB</pre>
+      
+      </div><!-- Close row -->
+    
+ 
+        
+      </div>
+  
+</div>
+
+    </section>
+<!-- End Of MALIA Section -->
+
+    <!-- Here the Film Begins Section -->
+  <section id="filmbegins" class="container text-justify" style="background:url(img/herefilmbegins.jpg) no-repeat" >
+    <br /><br>   <br /><br>
+      <div class="row">
+
+        <div class="col-6">
+	
+<div class="card card-outline-danger" style="background-color: #66878D; max-width: 20rem; height: 4rem; border-color: white">
+
+<div class="card-block"><center>
+<h5 style="#">... Here Film Begins</h3>
+</div>
+<center>
+</div><!-- Close Card-->
+<!-- Text begins -->
+<br />
+We encounter Malia for the first time. She just arrived in The Hague. Antonia picked her up from the
+airport and took her to the apartment. She turned on the small lamp, which stands beside Malia's bed on a
+small night stand, that Malia likes well. The light of the lamp is very bright. Her hands are clearly visible in its
+glow. They are wrinkled and very black in contrast to the apartment with its light colors. The walls are white,
+the bedding is white, even the carpet has the color of cooked milk. Her left ring finger is missing. A small
+stunted stump reminds her of the unimaginable pain she experienced when it was hacked off in punishment
+because she could not stand to watch her dead friend being eaten by vultures. She stops herself from thinking
+further of her friend.<br /><br />
+She lifts her head. It seems to her as if the whole mysterious continent on which she now finds herself is
+represented in this apartment. Europe. She must look more closely. "This is your home for now," Antonia had
+said. A home for now, what is that supposed to mean, Malia wonders? She is now alone. She slowly gets up
+and walks through the rooms. In her village in her hut there was only a large room for everything. Here, there
+is a room for everything. In the living room she finds shelves full of books, that remind her of her home with
+the sisters in Africa. Finally she spies something familiar. Malia loves books. She takes one whose title she
+likes, "MOMO". She wants to start reading immediately, but finds herself distracted by the water faucet, by the
+ready abundance of water, as well as electricity, at any time of the day or night.
+<br><br>
+Before Malia goes to sleep, Antonia calls again to check if she is ok. Her voice sounds kind and friendly, a
+warm, human sound breaking the silence.
+
+<!-- Eng of text -->
+	</div><!-- Close col 6 -->
+	        <div class="col-6" style=""> She seems nice. Malia falls asleep, thinking on how much effort has
+gone into bringing her here. Suddenly she is almost happy that Antonia is coming tomorrow. She will see the
+city, the city whose streets Van Gogh also trod. She sleeps under thick blankets instead of a mosquito net. At
+home, the nurses would never allow her to sleep without a mosquito net. After turning off the bedside light,
+deep darkness spreads. This is too much for Malia. She turns on the light again. The electricity is still there.
+She switches the light on and off a few more times. Finally, her exhausted mind takes over, and Malia falls
+asleep in the dark.<br /><br />
+<img src="img/malia screening.jpg" width="669" height="156" class="img-fluid">
+<pre>Look alike of public viewing</pre>
+
+The next day brings many new things, breakfast with Antonia and her first European meal. Antonia shows
+her The Hague. Malia finds a postcard with the picture "Starry Night", The first thing she buys in Europe. In a
+restaurant, she shares with Antonia her affinity for this picture. <a href="#footwear">Read more . . .</a></div>
+        
+      </div>
+ </div>
+<br /><br />
+    </section>
+<!-- End Of Here the Film Begins Section -->
+
+
+    <!-- Screenplay Extract Section -->
+  <section id="screenplay" class="container text-justify" style="background:url(img/paper.jpg) repeat-y" >
+    <br />
+      <div class="row">
+        <div class="col-6">
+<center>	
+<div class="card card-outline-danger" style="max-width: 20rem; height: 5rem; border-color: black">
+
+<div class="card-block"><center>
+<span style="font-size: 1.2em; color: black"><strong>SCREENPLAY EXTRACT</strong><br /></span><span style="font-size: 0.7em; color: black">SCENE 32: ANXIETY AND ABSURDITY</span>
+</div>
+<center>
+</div><!-- Close Card-->
+<br />
+<div class="row" style="font-size: 0.9em; color: black">
+        <div class="col-md-3">32</div>
+        <div class="col-md-6" style="text-align: left"><strong> INT. FLAT - AFTERNOON</strong></div>
+        <div class="col-md-3">32</div>
+      </div>
+      
+ <div class="row" style="font-size: 1.0em; color: black">
+        <div class="col-md-12 text-left"> <pre>ON APARTMENT DOOR FROM INSIDE THE FLAT
+Malia enters the flat. She pushes open the apartment door.
+She looks down the hall. The hall is in the afternoon light.
+Dust particles dance in the sunlight. Malia enters slowly.
+
+ON THE FRONT OF HER FACE.
+She turns around and closes the door. She carries a half-full
+shopping bag on her right side. (On the bag is a drawing of
+two laughing blonde children with apples. One child holds an
+apple in his hand, the other bites heartily into it.)
+
+ON THE BAG
+Malia slowly turns around and leans against the door with
+relief. The quiet apartment stands in evident contrast to the
+noisy city life she has just left on the other side of the
+door.
+
+ON THE FRONT OF MALIA'S FACE.
+Malia sighs and closes her eyes. From outside, the road noise
+can be heard, but slowly all sounds are swallowed around her
+until the soundscape is similar to being underwater. It feels
+friendly and calm at first, but then the audience feels a
+gradually strengthening claustrophobic muteness. You can see
+her breathing, but cannot hear her breathing or her
+heartbeat. Malia opens her eyes and stares past the camera
+down the hallway. The noises disappear completely until its
+fully silent.
+
+OVER MALIA'S SHOULDER, THE CAMERA TAKES A SLOW, VERTIGINOUS RIDE 
+DOWN THE HALLWAY, MALIA STANDING STILL IN THE ENTRY.
+A distinct, loud clicking noise on the parquet can be heard.
+It gives the feeling of a heavy tread of a large animal. As
+it comes closer, you can hear its claws on the wooden floor.
+Malia stares down the hallway. As if it were completely
+normal, the creature slowly comes around the corner. It
+pushes his bony body forward with uneven steps. It turns its
+head and looks over at Malia. From its micro facial
+expressions, the audience can understand that it recognizes
+Malia. It progresses silently and very slowly to the corridor
+wall, it turns and steps back like a lion wandering along its
+cage bars. It fixes Malia firmly with its empty eyes, then
+slowly and unevenly slumps around the far corner. One has the
+feeling it limps slightly. (It exudes extreme evil, yet is
+plagued by a certain inner uncertainty, its personality
+mirrors the darkness of Malia's frightened state.) One hears
+it continue with difficulty in the direction of the bathroom.</pre></div>
+      </div>     
+
+<!-- Text begins -->
+
+<!-- End of text -->
+	</div><!-- Close col 6 -->
+	        <div class="col-6" style=""> 
+<center>
+<div class="row" style="font-size: 0.9em; color: black">
+        <div class="col-md-3">32</div>
+        <div class="col-md-6" style="text-align: left">CONTINUED:</div>
+        <div class="col-md-3">32</div>
+</div>
+
+<pre style="text-align: left">SHOT FROM GROUND LEVEL FROM THE CORNER OF THE CORRIDOR ON MALIA.
+
+Malia stands there, petrified. Her view is fixed on the
+hallway's corner, as though she is waiting for the creature
+to reappear.
+
+CLOSE TO MALIA'S FACE.
+Her Forehead is sweaty. She opens her mouth as though to
+scream, but covers her mouth with her hand and holds it in.
+
+AT THE LEVEL OF THE SHOPPING BAG, WITH MALIA. (ON THE BAG, THE BLOND
+SMILING CHILDREN)
+Malia pushes herself with the bag against the door. She opens
+the door and walks out. She closes it firmly behind her,
+mechanically, as though in a trance.
+
+---BEGINNING OF THE PLAN SEQUENCE---
+
+FLYING IN FRONT OF MALIA BACKWARDS.
+Malia is quickly walking down the stairs towards the front
+door. Still no sound.
+
+MOVING BACK FROM THE HOUSE TO THE OPPOSITE SIDE OF THE STREET.
+Malia hesitates and stays in the doorway of the house. She
+gasps and breathes heavily. While the camera leaves the
+entrance of the house, the entire ambient sound comes back
+Gradually. First, human voices and laughter, then the bicycle
+bells, live music, and traffic noise. As if the volume has
+been changed abruptly from mute to sound. Finally, you can
+hear Malia breathing. Malia closes her eyes briefly. Malia
+begins to walk across the street, towards the camera in the
+direction of the canal.
+
+THE CAMERA MOVES TO THE RIGHT, KEEPING A CONSTANT DISTANCE FROM 
+MALIA, IN A CIRCULAR MOTION AROUND HER, CROSSING THE ROAD TOWARDS 
+HER HOUSE. THE END POSITION IS MALIA FROM BEHIND IN A LONG SHOT 
+WITH VIEW OF THE CANAL IN FRONT OF HER. IT BASICALLY SWITCHES 
+POSITIONS WITH MALIA.
+Malia goes to the canal. She stops and stares at the water.
+SLOWLY MOVING TOWARDS MALIA UNTIL OVER MALIA'S SHOULDER.
+A small motorboat moves past her from right to left. An
+elderly man controls the outboard motor. A young woman sits
+in the boat, breast-feeding a baby. A young boy sits next to
+her and plays guitar. Malia watches.
+<mark style="background-color: #EFE20E">(Intention: The hustle and bustle of normal city life help
+Malia to suppress her fear.)</mark>
+Malia turns to the right and discovers what for the viewer is
+initially invisible, a small bench about 5 meters away,
+overlooking the canal.</pre><a href="#footwear"> Read more . . .</a>
+		
+</div>
+        
+      </div>
+ </div>
+
+    </section>
+    <!--End of screenplay one -->
+    
+<!-- Start of screenplay 2 (Repeat of screenplay 1 code -->     
+
+<section id="screenplay" class="container text-justify" style="background:url(img/paper.jpg) repeat-y" >
+    <br />
+      <div class="row">
+        <div class="col-6">
+<center>	
+
+<br />
+<div class="row" style="font-size: 0.9em; color: black">
+        <div class="col-md-3">32</div>
+        <div class="col-md-6" style="text-align: left">CONTINUED</div>
+        <div class="col-md-3">32</div>
+      </div>
+      
+ <div class="row" style="font-size: 1.0em; color: black">
+        <div class="col-md-12 text-left"> <pre><mark style="background-color: #98BDCF">SWIVELS TO RIGHT AND FIXES ON MALIA WALKING TOWARDS THE WOODEN 
+BENCH ON HER RIGHT IN FRONT OF THE CANAL. DURING THIS MOVEMENT IT 
+GLIDES OVER THE CANAL TO THE OPPOSITE SITE, CONSTANTLY FIXING ON 
+MALIA. THE END POSITION IS A FRONTAL SHOT WITH CENTERED VIEW OF 
+MALIA ON THE BENCH AND THE ROW OF HOUSES BEHIND HER.</mark>
+Malia goes to the bench and sits down. A bakery can be seen
+behind Malia. Teeming springtime life in The Hague surrounds
+her. Everything looks new and fresh. (For example, an old
+woman is watering the flowers in front of her window above
+the bakery, a child rides a toy car with his family, a couple
+strolls hand-in-hand, a postman drops letters at the house
+next door, a cat sleeps next to a flowerpot, a boy feeds
+pigeons, etc.)
+
+<mark style="background-color: #EFE20E">(Intention: The world intensifies around Malia into
+artificiality. All elements of a busy street on a spring day
+are emphasized and exaggerated. The world becomes like a
+circus. All the elements of a busy street are piling up
+visually. So for example there is not one loving couple but
+two or three. There are jugglers walking through the scene.
+Lots of kids playing, holding balloons or skating. Street
+musicians everywhere... etc.)</mark>
+
+A cyclist passes behind Malia, ringing his bell loudly, and
+she looks back over her left shoulder with interest. She
+notices an older, elegantly dressed woman in a pink suit,
+pearl necklace and hat (similar to Queen Elizabeth) on the
+street, on the sidewalk in front of the bakery, walking her
+well-groomed poodle on a rhinestone leash. The woman ties the
+poodle to a bike standing in front of the bakery. 
+
+</pre>
+
+</div>
+      </div>     
+
+<!-- Text begins -->
+
+<!-- End of text -->
+	</div><!-- Close col 6 -->
+	        <div class="col-6" style=""> 
+<center>
+<div class="row" style="font-size: 0.9em; color: black">
+        <div class="col-md-3"><pre>32</pre></div>
+        <div class="col-md-6" style="text-align: left"><pre>CONTINUED:</pre></div>
+        <div class="col-md-3"><pre>32</pre></div>
+</div>
+
+<pre>
+The poodle
+sits down and looks patiently at the bustle of the street.
+The lady goes to the bakery. Malia looks alternately back
+past the camera to the canal. She is interested and amazed at
+this strange dog, who is also watching the comings and
+goings, and sniffing at people who pass. After a few moments,
+the woman returns with a bag from the bakery. Malia looks
+away to avoid making eye contact. The woman and her dog
+depart to the left. Malia looks after them, carefully, so as
+not to be noticed.
+
+THE CAMERA STARTS TO MOVE SLOWLY BACKWARD UNTIL IT 
+COMES TO A STOP ON A VIEW OF MALIA AND ANTONIA.
+
+From left, the camera catches a view of Antonia, who has now
+sat down a little distance from Malia on the bench. She
+smiles at Malia. You feel she does not want to scare her.
+
+<mark style="background-color: #EFE20E">(Throughout the following dialogue, the circus-like state
+around Malia gradually reduces to a normal intensity.
+Intention: Malia comes back to reality.)</mark>
+</pre>
+
+<!-- Start 670 -->
+<div class="row" style="font-size: 0.9em; color: black">
+        <div class="col-md-3"><pre>670</pre></div>
+        <div class="col-md-6" style="text-align: center"><pre><mark style="background-color: #98BDCF">ANTONIA
+How fortunate that I saw you. What
+are you doing here?</mark></pre></div>
+        <div class="col-md-3"><pre>670</pre></div>
+</div>
+
+<div class="row" style="font-size: 0.9em; color: black">
+        <div class="col-md-3"><pre>671</pre></div>
+        <div class="col-md-6" style="text-align: center"><pre><mark style="background-color: #EFE20E">MALIA
+(pleased)
+I was shopping.</mark></pre></div>
+        <div class="col-md-3"><pre>671</pre></div>
+</div> <!-- Close 671 -->
+
+<pre style="text-align: left">Antonia leans forward slightly and looks at the grocery bag
+at Malia's feet.</pre>
+
+<div class="row" style="font-size: 0.9em; color: black">
+        <div class="col-md-3"><pre>672</pre></div>
+        <div class="col-md-6" style="text-align: center"><pre><mark style="background-color: #98BDCF">ANTONIA
+Want to cook or shall we order
+something to eat?</mark></pre></div>
+        <div class="col-md-3"><pre>672</pre></div>
+</div>
+
+<div class="row" style="font-size: 0.9em; color: black">
+        <div class="col-md-3"><pre>673</pre></div>
+        <div class="col-md-6" style="text-align: center"><pre><mark style="background-color: #EFE20E">MALIA
+I wanted to cook something. Will 
+you eat with me?</mark></pre></div>
+        <div class="col-md-3"><pre>673</pre></div>
+</div>
+
+<pre>
+</pre><a href="#footwear"> Read more . . .</a>
+		
+</div>
+        
+      </div>
+ </div>
+
+    </section>
+
+<!-- End of Screenplay 2-->
+
+<!-- End Of Screenplay Extract Section -->
+
+    <!-- Look Feel Impressions Section -->
+  <section id="lookfeelimpressions" class="container text-justify" style="background:url(img/paer.jpg) repeat-y" >
+    <br />
+      <div class="row">
+        <div class="col-6">
+<center>	
+<div class="card card-outline-danger" style="background-color: #66878D; max-width: 20rem; height: 4rem; border-color: white">
+
+<div class="card-block"><center>
+<span style="font-size: 1.2em; color: white"><strong>LOOK AND FEEL</strong></span>
+</div>
+
+</div><!-- Close Card-->
+<br />
+     
+ <div class="row">
+        <div class="col-md-12 text-justify" style="font-size: 1.0em; color: white"> How can claustrophobia, loneliness, and recollection of the past be made manifest through the experience
+of suspense and horror, in deep contrast to the comfort of this cozy and quiet apartment? Malia's terror comes
+ever closer through the use of light and sound effects, and unusually long, planned sequences, culminating
+in the appearance of the monster-like creature. The way of creating suspense in the film is comparable with
+films like "The sixth Sense", "Signs" or "Poltergeist".<br /><br />
+The use of different color schemes will assist the audience in understanding Malia's recollections and resulting
+state of mind. There will be no flashbacks or cinematic returns to Africa, but rather Africa will materialize in
+the rooms of her apartment. It will emerge from the elements of her surroundings: from the walls, ceilings,
+doors, floors, and furniture. Fire and violence will break out inside her temporary home in The Hague, at least
+in her remembrance and imagination.<br /><br />
+Through special camera work and the application of image design, color, and the economical use of sound and
+music, the film will bring back Malia's life and experiences. Many of these scenes will take place with almost
+no sound, to illustrate her solitude and the suffocating nature of her experiences. For Malia, again there is no
+escape, and a closed door offers no protection. No one else can hear or see anything of the creature.<br /><br />
+Malia's strong character emerges in her ability not only to overcome the cruelty she has experienced, but also
+to raise her child with love. But there are cracks in her facade of self-composure and calm. How can she live
+with herself? How can she look into her own eyes? The mirror is an important touchstone and tool in the
+horror genre. The intention here is to find new approaches to this familiar object, and to defy the viewer's
+expectations in this regard. Where thrillers traditionally play on a primal fear of the dark and the ability to
+sleep in safety, this film addresses crimes that take place in the light of day. Bright daylight offers no refuge for
+Malia, and serves to demonstrate how much courage Malia needs to muster to give her testimony and relive
+that unbearable experience.<br /><br />
+To intensify her feelings to the audience we will use unusual multiplication of her real world sourroundings
+such as the busy street life.<br /><br /><center><p class="intro-text" style="font-size: 0.9em">PARTS OF THE COMPOSED FILM SCORE: <a href="https://goo.gl/wDczKQ" style="color: red">https://goo.gl/wDczKQ</a>
+                            <br><span style="font-size: 0.8em">COMPOSED BY MICHELE GENTILE</span></p>	    
+			    </div>
+      </div>     
+
+<!-- Text begins -->
+
+<!-- End of text -->
+	</div><!-- Close col 6 -->
+	        <div class="col-6" style=""> 
+<center>	
+<div class="card card-outline-danger" style="background-color: #66878D; max-width: 20rem; height: 4rem; border-color: white">
+
+<div class="card-block"><center>
+<span style="font-size: 1.2em; color: white"><strong>IMPRESSIONS</strong></span>
+</div>
+
+</div><!-- Close Card-->
+
+ <span style="font-size: 1.0em; color: white"><br />
+<div class="row">
+            <div class="col-md-12 text-justify"><img src="img/image109.png" width="669" height="156" class="img-fluid">The process of scriptwriting took Michele Gentile and Christiane Gentile more than two and a half years. Drawing out this story took them from tears to euphoria. Both of them emphasized especially the importance for them of creating believable dialogues and paying extra attention to helping the viewer to understand the character of Malia. The script comprises 131 pages and is completely written following International standards in both English and German.</div>
+          </div>
+<br />
+<div class="row">
+            <div class="col-md-12 text-justify"><img src="img/image110.png" width="669" height="156" class="img-fluid">After we finished the script, we redoubled our efforts to spread the word about this project to our friends and partners. We recruited well-known German actress Katja Riemann (e.g. "Comedian Harmonists", 1997 or "He is Back", 2015) and international director of photography Jorg Widmer (e.g. "V for Vendetta", 2005 or "Inglorious Basterds", 2009) who penned letters of intent to the producers of Malia, and who continue to consult on casting, financing, production and other crucial matters.</div>
+          </div>
+<br />
+<div class="row">
+            <div class="col-md-12 text-justify"><img src="img/image111.png" width="669" height="156" class="img-fluid">In planning for the production of Malia, we undertook our first location scouting of the canal street in The Hague where our heroine Malia lives. We also visited the Van Gogh Museum in Amsterdam. We wanted to envision the film's story unfolding in these cities and surroundings. We even found the supermarket where we will shoot an important scene with Malia and a boy who reminds her of Odongo.</div>
+          </div>
+<br />
+<div class="row">
+            <div class="col-md-12 text-justify">In this process, our documentary filmmaker Jannik Mayer has tailed us, in order to record the process of producing Malia from start to finish.</div>
+          </div>
+</div>
+        
+      </div>
+ </div>
+
+    </section>
+<!-- End Of Look Feel Impressions Extract Section -->
+
+ <!-- Start Films Intentions and Goals Section -->
+    <section id="filmintentionsgoals" class="container text-justify">
+    <br /> <br /> 
+<div class="card card-outline-danger" style="background-color: #66878D; max-width: 20rem; height: 5rem; border-color: white">
+
+<div class="card-block"><center>
+<h5 style="#">FILM'S INTENTIONS AND GOALS</h3>
+</div>
+<center>
+</div><!-- Close Card-->
+<br />
+
+      <div class="row">
+        <div class="col-12 col-md-12">An international organization, the International Criminal Court (ICC) is specifically designed to deal
+the most serious crimes of concern to the international community. Although the idea that a permanent international criminal court was strongly needed, and therefore, should be created, had lingered for a very long time, the realization of that idea has come about quite recently. In particular, concerns over sovereign rights of States made them reluctant to discuss the issue until 1995, when the negotiation process began at the UN. In July 1998, at the Rome Diplomatic Conference, 120 states adopted the Rome Statute establishing the International Criminal Court and opened it for signature. After the required number of 60 ratifications was reached, the Rome Statute, along with the ICC, officially entered into force in July 2002.<br /><br />
+However, the Court did not become fully functional until 2003, when the states parties elected the first Judges and independent Prosecutor for the Court. After that, the ICC began operating in its headquarters in The Hague, "the capital of international peace and justice".<br /><br />
+The Court is dealing with the gravest crimes, that is, genocide, crimes against humanity, war crimes and eventually the crime of aggression, which will be added the Rome Statute in 2017. At first sight, it might seem that the list is too narrow. However, there are many crimes that fit within these categories, such as murder, rape, forced prostitution, destruction of cultural property, taking hostages, enslavement, torture, and many others (see articles 6 through 8 of the Rome Statute). Furthermore, the inclusion of aggression as a crime to be dealt with by the Court on the list is an important step in preventing future conflicts.<br /><br />
+It is nothing less than "small" revolution in international law and global politics, what the Times of India called in 1998 "international lawmaking of historic proportions".<br /><br />
+In 2013, network television viewers received a taste of the International Criminal Court through NBC's new police series, "CROSSING LINES". The show follows a fictional "special crimes unit" of the ICC tasked with investigating murders, kidnappings, bank heists, and other crimes. Unfortunately, the show's storyline bears little resemblance to the mandate or work of the real ICC. It would not pursue the types of crimes portrayed in the show. Yet, the show's creation, like the film "THE INTERPRETER" with Nicole Kidman and Sean Penn, indicates growing popular awareness of the ICC's increasing global importance.<br /><br />
+More can and should be done to raise awareness of this institution, and to encourage discussion about how it can best contribute to global peace, justice and security.<br /><br />
+This film is based with documentary precision on facts and figures relating to the ICC's work and the actual experience of child soldiers. The goal is to help the audience identify with the experience of a former child soldier. Her fate is a reflection of many true child soldiers' fates and is reinforced constantly by staying close to our protagonist. We make the audience feel Malia's fears, get to know her past and make them see what she is seeing.<br /><br />
+This film may be an important signpost to people and comunities all around the world. The goal is to spread the importance of the ICC and to evaluate and to illuminate its work internationally. No person on this planet should ever be subjected to such forces and brutalities.<br /><br />
+Our goal is to implement this movie only if the funds are sufficient. A film with such significance must either be completely and properly done or not done at all. A poorly conceived production in no way meets the farreaching effect that is desperately needed on this subject or may even harm the reputation of the ICC.<br /><br />
+Of course, it is quite clear that the success of this film is entirely based on the acting skills of our main characters. Especially our leading lady must be able to cover a range of emotions in a precise and convincing way; her portrayal must enchant the audience and bring them to her side from the start. Her credibility is more important than anything else.<br /><br />
+We as a team are looking forward to this challenge and are ready to undertake all the necessary steps to shoot and promote this movie as conscientiously as possible.<br /><br />
+Thank you for reading our treatment. We hope we have caught your attention and your imagination, and that you are as hooked on the story as we are. We would be happy to hear your thoughts and comments on this.<br /><br />
+All the very best!
+</div>  
+      </div>
+      
+       </div><!-- Close row -->
+<p></p>
+</section>
+<!-- End Film's Intentions and Goals -->
+
+ <!-- Signatures and logos Section -->
+    <section id="download" class="container text-center">
+    
+        <!-- Bootstrap Grid -->
+	
+	<div class="row">
+	  <div class="col-3" class="text-right"><img src="img/image115.png" width="88" height="61" class="img-fluid"></div>
+	  <div class="col-3" class="text-right"><img src="img/image116.png" width="88" height="61" class="img-fluid"></div>
+	  <div class="col-3" class="text-left"><img src="img/image114.png" width="88" height="61" class="img-fluid"></div>
+	  <div class="col-3" class="text-left"><img src="img/image113.png" width="88" height="61" class="img-fluid"></div>
+	</div>
+	<div class="row">
+	  <div class="col-4"><img src="img/image119.png"  class="img-fluid"></div>
+	  <div class="col-4"><img src="img/image123.png" width="88" height="61" class="img-fluid"></div>
+	  <div class="col-4"><img src="img/image117.png" width="88" height="61" class="img-fluid"></div>
+	</div>
+	<div class="row">
+	  <div class="col-6"><img src="img/image134.png" width="88" height="61" class="img-fluid"></div>
+	  <div class="col-6"><img src="img/image118.png" width="88" height="61" class="img-fluid"></div>
+	</div>
+	<div class="row">
+	  <div class="col-12">&nbsp;</div>
+	</div>	
+	<div class="row">
+	  <div class="col-4"><img src="img/image121.png" class="img-fluid"></div>
+	  <div class="col-4"><img src="img/image022.png" class="img-fluid"></div>
+	  <div class="col-4"><img src="img/image122.png" class="img-fluid"></div>
+	</div>
+</div>
+    </section>
+<!-- End Of Signatures and logos Section -->
+
+
+    <!-- Download Section -->
+    <section id="download" class="content-section text-right">
+        <div class="download-section">
+            <div class="container">
+                <div class="col-lg-8 offset-md-2">
+                    <img src="img/mALIA-LOGO.png" width="391" height="142">
+                    <p>A FILM BY MICHELE GENTILE</p>
+                    <a href="#" class="btn btn-default btn-lg">Coming to theatres near you</a>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- End Of Download Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 offset-md-2">
+                <h2>Little Big Talents UG</h2>
+                <p>BEIM BILDSTOECKLE 3  |  D - 72108 ROTTENBURG a. N.  |  GERMANY<BR />+49 1522 940 37 53
+<br />mike@littlebigtalents.com<br />(haftungsbeschrankt)</p>
+                <ul class="list-inline banner-social-buttons">
+                    <li class="list-inline-item">
+                        <a href="#" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <div id="map"></div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>- Copyright &copy; LITTLE BIG TALENTS UG - MICHELE GENTILE -</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/tether/tether.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-bWJI4Ed1hD0vCOQDicm0kB7jJnlaCU0&sensor=false"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/grayscale.min.js"></script>
+
+</body>
+
+</html>
