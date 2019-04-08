@@ -2899,7 +2899,7 @@ select.form-control[multiple],
 /** # background-image: url('assets/img/'); **/
 
 .navbar .navbar-brand:hover, .navbar .navbar-brand:focus {
-    color: #000000;
+    color: #ffffff;
     background-color: transparent;
 }
 
