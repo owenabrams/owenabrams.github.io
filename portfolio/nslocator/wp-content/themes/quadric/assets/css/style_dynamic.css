@@ -1,0 +1,225 @@
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\assets\custom-styles\general-custom-styles.php edgtf_quadric_design_styles function */
+.edgtf-preload-background { background-image: url(./../img/preload_pattern.png) !important;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\assets\custom-styles\general-custom-styles.php edgtf_quadric_design_styles function */
+.edgtf-boxed .edgtf-wrapper { background-attachment: fixed;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\assets\custom-styles\general-custom-styles.php edgtf_quadric_design_styles function */
+.edgtf-main-menu > ul > li:hover .item_title:before,  .edgtf-main-menu > ul > li:hover .item_title:after { left: calc(100% + 2px);}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\assets\custom-styles\general-custom-styles.php edgtf_quadric_design_styles function */
+.edgtf-drop-down .second li > a:hover .item_inner:before, .edgtf-drop-down .second li > a:hover .item_inner:after { left: calc(100% + 1px);}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\assets\custom-styles\general-custom-styles.php edgtf_quadric_design_styles function */
+.edgtf-drop-down .second { top: calc(100% + 1px);}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_text_styles_1 function */
+.cf7_custom_style_1 ::-webkit-input-placeholder { color: #18202d;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_text_styles_1 function */
+.cf7_custom_style_1 :-moz-placeholder { color: #18202d;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_text_styles_1 function */
+.cf7_custom_style_1 ::-moz-placeholder { color: #18202d;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_text_styles_1 function */
+.cf7_custom_style_1 :-ms-input-placeholder { color: #18202d;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_text_styles_1 function */
+.cf7_custom_style_1 textarea.wpcf7-form-control.wpcf7-textarea { height: 220px;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_text_styles_1 function */
+.cf7_custom_style_1 input.wpcf7-form-control.wpcf7-text, .cf7_custom_style_1 input.wpcf7-form-control.wpcf7-number, .cf7_custom_style_1 input.wpcf7-form-control.wpcf7-date, .cf7_custom_style_1 textarea.wpcf7-form-control.wpcf7-textarea, .cf7_custom_style_1 select.wpcf7-form-control.wpcf7-select, .cf7_custom_style_1 input.wpcf7-form-control.wpcf7-quiz { color: #18202d;font-size: 13px;font-family: Raleway;font-style: normal;font-weight: 400;text-transform: capitalize;letter-spacing: 0px;background-color: rgba(255, 255, 255, 1);border-color: rgba(236, 236, 236, 1);border-width: 2px;border-radius: 0px;padding-top: 13px;padding-bottom: 13px;margin-bottom: 22px;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_focus_styles_1 function */
+.cf7_custom_style_1 input:focus::-webkit-input-placeholder, .cf7_custom_style_1 textarea:focus::-webkit-input-placeholder { color: #18202d;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_focus_styles_1 function */
+.cf7_custom_style_1 input:focus:-moz-placeholder, .cf7_custom_style_1 textarea:focus:-moz-placeholder { color: #18202d;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_focus_styles_1 function */
+.cf7_custom_style_1 input:focus::-moz-placeholder, .cf7_custom_style_1 textarea:focus::-moz-placeholder { color: #18202d;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_focus_styles_1 function */
+.cf7_custom_style_1 input:focus:-ms-input-placeholder, .cf7_custom_style_1 textarea:focus:-ms-input-placeholder { color: #18202d;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_focus_styles_1 function */
+.cf7_custom_style_1 input.wpcf7-form-control.wpcf7-text:focus, .cf7_custom_style_1 input.wpcf7-form-control.wpcf7-number:focus, .cf7_custom_style_1 input.wpcf7-form-control.wpcf7-date:focus, .cf7_custom_style_1 textarea.wpcf7-form-control.wpcf7-textarea:focus, .cf7_custom_style_1 select.wpcf7-form-control.wpcf7-select:focus, .cf7_custom_style_1 input.wpcf7-form-control.wpcf7-quiz:focus { color: #18202d;background-color: rgba(247, 247, 247, 1);border-color: rgba(236, 236, 236, 1);}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_button_styles_1 function */
+.cf7_custom_style_1 input.wpcf7-form-control.wpcf7-submit { color: #212022;font-size: 12px;height: 44px;font-family: Raleway;font-style: normal;font-weight: 700;text-transform: uppercase;letter-spacing: 2px;background-color: rgba(240, 240, 240, 1);border-width: 0px;border-radius: 0px;padding-left: 19px;padding-right: 19px;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_button_hover_styles_1 function */
+.cf7_custom_style_1 input.wpcf7-form-control.wpcf7-submit:not([disabled]):hover { color: #ffffff;background-color: rgba(251, 54, 68, 1);}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_text_styles_2 function */
+.cf7_custom_style_2 ::-webkit-input-placeholder { color: #ffffff;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_text_styles_2 function */
+.cf7_custom_style_2 :-moz-placeholder { color: #ffffff;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_text_styles_2 function */
+.cf7_custom_style_2 ::-moz-placeholder { color: #ffffff;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_text_styles_2 function */
+.cf7_custom_style_2 :-ms-input-placeholder { color: #ffffff;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_text_styles_2 function */
+.cf7_custom_style_2 input.wpcf7-form-control.wpcf7-text, .cf7_custom_style_2 input.wpcf7-form-control.wpcf7-number, .cf7_custom_style_2 input.wpcf7-form-control.wpcf7-date, .cf7_custom_style_2 textarea.wpcf7-form-control.wpcf7-textarea, .cf7_custom_style_2 select.wpcf7-form-control.wpcf7-select, .cf7_custom_style_2 input.wpcf7-form-control.wpcf7-quiz { color: #ffffff;font-size: 13px;font-family: Raleway;font-style: normal;font-weight: 400;text-transform: capitalize;letter-spacing: 0px;background-color: rgba(255, 255, 255, 0.01);border-color: rgba(255, 255, 255, 0.5);border-width: 2px;border-radius: 0px;padding-top: 13px;padding-bottom: 13px;margin-bottom: 0px;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_focus_styles_2 function */
+.cf7_custom_style_2 input:focus::-webkit-input-placeholder, .cf7_custom_style_2 textarea:focus::-webkit-input-placeholder { color: #ffffff;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_focus_styles_2 function */
+.cf7_custom_style_2 input:focus:-moz-placeholder, .cf7_custom_style_2 textarea:focus:-moz-placeholder { color: #ffffff;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_focus_styles_2 function */
+.cf7_custom_style_2 input:focus::-moz-placeholder, .cf7_custom_style_2 textarea:focus::-moz-placeholder { color: #ffffff;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_focus_styles_2 function */
+.cf7_custom_style_2 input:focus:-ms-input-placeholder, .cf7_custom_style_2 textarea:focus:-ms-input-placeholder { color: #ffffff;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_focus_styles_2 function */
+.cf7_custom_style_2 input.wpcf7-form-control.wpcf7-text:focus, .cf7_custom_style_2 input.wpcf7-form-control.wpcf7-number:focus, .cf7_custom_style_2 input.wpcf7-form-control.wpcf7-date:focus, .cf7_custom_style_2 textarea.wpcf7-form-control.wpcf7-textarea:focus, .cf7_custom_style_2 select.wpcf7-form-control.wpcf7-select:focus, .cf7_custom_style_2 input.wpcf7-form-control.wpcf7-quiz:focus { color: #ffffff;background-color: rgba(255, 255, 255, 0.01);border-color: rgba(255, 255, 255, 1);}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_button_styles_2 function */
+.cf7_custom_style_2 input.wpcf7-form-control.wpcf7-submit { color: #ffffff;font-size: 12px;height: 44px;font-family: Raleway;font-style: normal;font-weight: 700;text-transform: uppercase;letter-spacing: 1px;background-color: rgba(28, 25, 29, 1);border-width: 0px;border-radius: 0px;padding-left: 19px;padding-right: 19px;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_button_hover_styles_2 function */
+.cf7_custom_style_2 input.wpcf7-form-control.wpcf7-submit:not([disabled]):hover { color: #1c191d;background-color: rgba(255, 255, 255, 1);}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_text_styles_3 function */
+.cf7_custom_style_3 ::-webkit-input-placeholder { color: #767676;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_text_styles_3 function */
+.cf7_custom_style_3 :-moz-placeholder { color: #767676;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_text_styles_3 function */
+.cf7_custom_style_3 ::-moz-placeholder { color: #767676;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_text_styles_3 function */
+.cf7_custom_style_3 :-ms-input-placeholder { color: #767676;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_text_styles_3 function */
+.cf7_custom_style_3 input.wpcf7-form-control.wpcf7-text, .cf7_custom_style_3 input.wpcf7-form-control.wpcf7-number, .cf7_custom_style_3 input.wpcf7-form-control.wpcf7-date, .cf7_custom_style_3 textarea.wpcf7-form-control.wpcf7-textarea, .cf7_custom_style_3 select.wpcf7-form-control.wpcf7-select, .cf7_custom_style_3 input.wpcf7-form-control.wpcf7-quiz { color: #767676;font-size: 13px;letter-spacing: 0px;background-color: rgba(241, 241, 241, 1);border-color: rgba(215, 215, 215, 1);border-width: 2px;border-radius: 0px;padding-top: 13px;padding-bottom: 13px;margin-bottom: 0px;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_focus_styles_3 function */
+.cf7_custom_style_3 input:focus::-webkit-input-placeholder, .cf7_custom_style_3 textarea:focus::-webkit-input-placeholder { color: #767676;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_focus_styles_3 function */
+.cf7_custom_style_3 input:focus:-moz-placeholder, .cf7_custom_style_3 textarea:focus:-moz-placeholder { color: #767676;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_focus_styles_3 function */
+.cf7_custom_style_3 input:focus::-moz-placeholder, .cf7_custom_style_3 textarea:focus::-moz-placeholder { color: #767676;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_focus_styles_3 function */
+.cf7_custom_style_3 input:focus:-ms-input-placeholder, .cf7_custom_style_3 textarea:focus:-ms-input-placeholder { color: #767676;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_focus_styles_3 function */
+.cf7_custom_style_3 input.wpcf7-form-control.wpcf7-text:focus, .cf7_custom_style_3 input.wpcf7-form-control.wpcf7-number:focus, .cf7_custom_style_3 input.wpcf7-form-control.wpcf7-date:focus, .cf7_custom_style_3 textarea.wpcf7-form-control.wpcf7-textarea:focus, .cf7_custom_style_3 select.wpcf7-form-control.wpcf7-select:focus, .cf7_custom_style_3 input.wpcf7-form-control.wpcf7-quiz:focus { color: #767676;background-color: rgba(255, 255, 255, 1);border-color: rgba(215, 215, 215, 1);}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_button_styles_3 function */
+.cf7_custom_style_3 input.wpcf7-form-control.wpcf7-submit { color: #ffffff;font-size: 12px;height: 44px;font-family: Raleway;font-style: normal;font-weight: 700;text-transform: uppercase;letter-spacing: 1px;background-color: rgba(28, 25, 29, 1);border-width: 0px;border-radius: 0px;padding-left: 19px;padding-right: 19px;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_button_hover_styles_3 function */
+.cf7_custom_style_3 input.wpcf7-form-control.wpcf7-submit:not([disabled]):hover { color: #ffffff;background-color: rgba(251, 54, 68, 1);}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_text_styles_4 function */
+.cf7_custom_style_4 ::-webkit-input-placeholder { color: #18202d;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_text_styles_4 function */
+.cf7_custom_style_4 :-moz-placeholder { color: #18202d;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_text_styles_4 function */
+.cf7_custom_style_4 ::-moz-placeholder { color: #18202d;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_text_styles_4 function */
+.cf7_custom_style_4 :-ms-input-placeholder { color: #18202d;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_text_styles_4 function */
+.cf7_custom_style_4 textarea.wpcf7-form-control.wpcf7-textarea { height: 145px;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_text_styles_4 function */
+.cf7_custom_style_4 input.wpcf7-form-control.wpcf7-text, .cf7_custom_style_4 input.wpcf7-form-control.wpcf7-number, .cf7_custom_style_4 input.wpcf7-form-control.wpcf7-date, .cf7_custom_style_4 textarea.wpcf7-form-control.wpcf7-textarea, .cf7_custom_style_4 select.wpcf7-form-control.wpcf7-select, .cf7_custom_style_4 input.wpcf7-form-control.wpcf7-quiz { color: #18202d;font-size: 13px;font-family: Raleway;font-style: normal;font-weight: 400;text-transform: capitalize;letter-spacing: 0px;background-color: rgba(255, 255, 255, 1);border-color: rgba(236, 236, 236, 1);border-width: 2px;border-radius: 0px;padding-top: 13px;padding-bottom: 13px;margin-bottom: 22px;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_focus_styles_4 function */
+.cf7_custom_style_4 input:focus::-webkit-input-placeholder, .cf7_custom_style_4 textarea:focus::-webkit-input-placeholder { color: #18202d;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_focus_styles_4 function */
+.cf7_custom_style_4 input:focus:-moz-placeholder, .cf7_custom_style_4 textarea:focus:-moz-placeholder { color: #18202d;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_focus_styles_4 function */
+.cf7_custom_style_4 input:focus::-moz-placeholder, .cf7_custom_style_4 textarea:focus::-moz-placeholder { color: #18202d;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_focus_styles_4 function */
+.cf7_custom_style_4 input:focus:-ms-input-placeholder, .cf7_custom_style_4 textarea:focus:-ms-input-placeholder { color: #18202d;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_focus_styles_4 function */
+.cf7_custom_style_4 input.wpcf7-form-control.wpcf7-text:focus, .cf7_custom_style_4 input.wpcf7-form-control.wpcf7-number:focus, .cf7_custom_style_4 input.wpcf7-form-control.wpcf7-date:focus, .cf7_custom_style_4 textarea.wpcf7-form-control.wpcf7-textarea:focus, .cf7_custom_style_4 select.wpcf7-form-control.wpcf7-select:focus, .cf7_custom_style_4 input.wpcf7-form-control.wpcf7-quiz:focus { color: #18202d;background-color: rgba(247, 247, 247, 1);border-color: rgba(236, 236, 236, 1);}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_button_styles_4 function */
+.cf7_custom_style_4 input.wpcf7-form-control.wpcf7-submit { color: #ffffff;font-size: 12px;height: 44px;font-family: Raleway;font-style: normal;font-weight: 700;text-transform: uppercase;letter-spacing: 2px;background-color: rgba(33, 32, 34, 1);border-width: 0px;border-radius: 0px;padding-left: 19px;padding-right: 19px;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\contactform7\custom-styles\contact-form.php edgtf_quadric_contact_form7_button_hover_styles_4 function */
+.cf7_custom_style_4 input.wpcf7-form-control.wpcf7-submit:not([disabled]):hover { color: #ffffff;background-color: rgba(251, 54, 68, 1);}
+
+
+        
+        
+                
+
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                
+
+        
+        
+        
+        
+                    .edgtf-drop-down .second{
+            border-top: 0 !important;
+            }
+        
+                
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                
+        
+                
+        /* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\sidearea\custom-styles\sidearea.php edgtf_quadric_side_area_alignment function */
+.edgtf-side-menu-slide-from-right .edgtf-side-menu, .edgtf-side-menu-slide-with-content .edgtf-side-menu, .edgtf-side-area-uncovered-from-content .edgtf-side-menu { text-align: center;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\sidearea\custom-styles\sidearea.php edgtf_quadric_side_area_styles function */
+.edgtf-side-menu { background-image: url(./../../../../uploads/2015/10/sidearea-background-image.jpg);background-size: cover;}
+
+/* generated in C:\wamp64\www\sjlm\wp-content\themes\quadric\framework\modules\title\custom-styles\title.php edgtf_quadric_title_area_background_style function */
+.edgtf-title {display:none; background-image: url(./../img/title-pattern.png);background-repeat: repeat;}
+
